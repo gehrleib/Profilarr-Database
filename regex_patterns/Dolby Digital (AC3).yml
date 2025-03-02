@@ -1,0 +1,8 @@
+name: Dolby Digital (AC3)
+pattern: \b(AC3|Dolby[ .-]?Digital|DD)(?:[ .-]?\d+(?:[ .-]?\d+)?)?\b
+description: ''
+tags:
+- Audio
+- Dolby
+- Lossy
+tests: []

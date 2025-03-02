@@ -1,0 +1,8 @@
+name: DTS-HD HRA ES
+pattern: \b(DTS[ .-]?(HD[ .-]?(HRA|HR)|ES))(?:[ .-]?\d+(?:[ .-]?\d+)?)?\b
+description: ''
+tags:
+- Audio
+- Dolby
+- Lossy
+tests: []

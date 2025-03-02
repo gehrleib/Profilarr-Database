@@ -1,0 +1,8 @@
+name: AAC
+pattern: \b(AAC)(?:[ .-]?\d+(?:[ .-]?\d+)?)?\b
+description: ''
+tags:
+- Audio
+- Dolby
+- Lossy
+tests: []

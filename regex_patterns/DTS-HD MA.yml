@@ -1,0 +1,8 @@
+name: DTS-HD MA
+pattern: \b(DTS[ .-]?(HD[\s.-]?MA|MA|XLL))(?:[ .-]?\d+(?:[ .-]?\d+)?)?\b
+description: ''
+tags:
+- Audio
+- Dolby
+- Lossless
+tests: []

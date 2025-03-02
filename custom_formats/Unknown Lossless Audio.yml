@@ -1,0 +1,58 @@
+name: Unknown Lossless Audio
+description: 'Matches UHD Blu-rays (remux / encode) that don''t include a named audio
+  track. Since all UHD Blu-rays include lossless audio, it''s safe to assume that
+  some lossless audio track does exist, and just isn''t labelled. '
+tags:
+- Audio
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Blu-ray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: AAC
+  negate: true
+  pattern: AAC
+  required: true
+  type: release_title
+- name: Dolby Digital
+  negate: true
+  pattern: Dolby Digital (AC3)
+  required: true
+  type: release_title
+- name: Dolby Digital Plus
+  negate: true
+  pattern: Dolby Digital Plus (EAC3 or DD+)
+  required: true
+  type: release_title
+- name: DTS
+  negate: true
+  pattern: DTS
+  required: true
+  type: release_title
+- name: FLAC
+  negate: true
+  pattern: FLAC
+  required: true
+  type: release_title
+- name: PCM
+  negate: true
+  pattern: PCM
+  required: true
+  type: release_title
+- name: TrueHD
+  negate: true
+  pattern: TrueHD
+  required: true
+  type: release_title
+- name: TrueHD (Missing)
+  type: release_title
+  required: true
+  negate: true
+  pattern: TrueHD (Missing Groups)
+tests: []

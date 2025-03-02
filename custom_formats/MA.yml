@@ -1,0 +1,17 @@
+name: MA
+description: Matches 'Movies Anywhere' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: Movies Anywhere
+  negate: false
+  pattern: Movies Anywhere
+  required: true
+  type: release_title
+- name: WEBRip
+  negate: true
+  required: true
+  source: webrip
+  type: source
+tests: []

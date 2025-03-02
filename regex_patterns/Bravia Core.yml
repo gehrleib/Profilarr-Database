@@ -1,0 +1,8 @@
+name: Bravia Core
+pattern: \b(?:BCORE|CORE)[ .-](WEB-DL|WEBRip|WEB)\b
+description: ''
+tags:
+- Streaming Service
+- WEB-DL
+- WEBRip
+tests: []

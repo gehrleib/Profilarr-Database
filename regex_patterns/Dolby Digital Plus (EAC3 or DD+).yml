@@ -1,0 +1,8 @@
+name: Dolby Digital Plus (EAC3 or DD+)
+pattern: \b(EAC3|Dolby[ .-]?Digital\+|DD\+|DDP)(?:[ .-]?\d+(?:[ .-]?\d+)?)?(?!\w)
+description: ''
+tags:
+- Audio
+- Dolby
+- Lossy
+tests: []

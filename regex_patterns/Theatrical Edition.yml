@@ -1,0 +1,16 @@
+name: Theatrical Edition
+pattern: \b(?:Theatrical(?:[ .-](?:Cut|Edition))?|TC)\b
+description: Matches any type of theatrical edition.
+tags:
+- Edition
+tests:
+- expected: true
+  id: 1
+  input: Zodiac.2007.Theatrical.UHD.BluRay.2160p.TrueHD.5.1.DV.HEVC.REMUX-FraMeSToR.mkv
+  lastRun: '2025-03-01T18:31:12.523783'
+  matchSpan:
+    end: 22
+    start: 12
+  matchedContent: Theatrical
+  matchedGroups: []
+  passes: true

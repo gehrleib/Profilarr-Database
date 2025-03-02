@@ -1,0 +1,7 @@
+name: TrueHD
+pattern: \b(TrueHD|MLP|THD)(?:[ .-]?\d+(?:[ .-]?\d+)?)?\b
+description: ''
+tags:
+- Audio
+- Lossless
+tests: []

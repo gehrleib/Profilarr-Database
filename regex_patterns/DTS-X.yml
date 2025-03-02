@@ -1,0 +1,38 @@
+name: DTS-X
+pattern: \bDTS[ .-:]?X(?:[ .-]?\d+(?:[ .-]?\d+)?)?\b
+description: ''
+tags:
+- Audio
+- Dolby
+- Lossless
+tests:
+- expected: true
+  id: 1
+  input: 2 Fast 2 Furious (2003) 2160p MA WEB-DL H265 HDR DTS:X 7.1 English-FLUX
+  lastRun: '2025-03-01T20:01:35.941249'
+  matchSpan:
+    end: 58
+    start: 49
+  matchedContent: DTS:X 7.1
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: 2.Fast.2.Furious.2003.2160p.MA.WEB-DL.DTS-X.7.1.H.265-FLUX.mkv
+  lastRun: '2025-03-01T20:01:35.941249'
+  matchSpan:
+    end: 47
+    start: 38
+  matchedContent: DTS-X.7.1
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: Crimson Peak 2015 UHD BluRay 2160p DTS-X 7 1 DV HEVC REMUX-FraMeSToR
+  lastRun: '2025-03-01T20:01:35.941249'
+  matchSpan:
+    end: 44
+    start: 35
+  matchedContent: DTS-X 7 1
+  matchedGroups: []
+  passes: true

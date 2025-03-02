@@ -1,0 +1,7 @@
+name: 7.1 Surround
+pattern: \b7[ .-]1\b
+description: ''
+tags:
+- Audio
+- Channel
+tests: []

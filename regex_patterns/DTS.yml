@@ -1,0 +1,7 @@
+name: DTS
+pattern: \b(DTS)(?:[ .-]?\d+(?:[ .-]?\d+)?)?\b
+description: ''
+tags:
+- Audio
+- Dolby
+tests: []

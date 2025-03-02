@@ -1,0 +1,7 @@
+name: FLAC
+pattern: \b(FLAC)(?:[ .-]?\d+(?:[ .-]?\d+)?)?\b
+description: ''
+tags:
+- Audio
+- Lossless
+tests: []
