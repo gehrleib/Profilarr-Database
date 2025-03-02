@@ -1,6 +1,6 @@
 name: Special Edition
-pattern: \b(19|20)\d{2}\b(?!.*\b(19|20)\d{2}\b).*?\b(?:Special[\s.-]?Edition|Director'?s[\s.-]?Cut|Extended(?:[\s.-](?:Version|Edition|Cut))?|Uncut|Unrated|Remastered|Collector'?s[\s.-]?Edition|Limited[\s.-]?Edition)\b
-description: 'Matches any type of non theatrical edition.'
+pattern: \b(19|20)\d{2}\b(?!.*\b(19|20)\d{2}\b).*?\b(?:Special[\s.-]?Edition|SE|Director'?s[\s.-]?Cut|DC|Extended(?:[\s.-](?:Version|Edition|Cut))?|EE|Uncut|Unrated|Remastered|Collector'?s[\s.-]?Edition|CE|Limited[\s.-]?Edition|LE)\b
+description: Matches any type of non theatrical edition.
 tags:
 - Edition
 tests:
