@@ -1,4 +1,4 @@
-name: DVD Remux
+name: DVD REMUX
 description: A DVD Remux is a direct rip of a DVD's content without any re-encoding,
   preserving the original video, audio, and subtitle quality. It retains the exact
   resolution, bitrate, and format of the DVD, ensuring no loss in fidelity compared
@@ -14,10 +14,10 @@ conditions:
   source: dvd
   type: source
 - name: Remux
-  type: release_title
-  required: true
   negate: false
   pattern: Remux
+  required: true
+  type: release_title
 tests:
 - conditionResults:
   - matches: true

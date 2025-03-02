@@ -52,7 +52,7 @@ custom_formats:
   score: 50
 - name: BCORE
   score: 40
-- name: DVD Remux
+- name: DVD REMUX
   score: 40
 - name: AMZN
   score: 30
