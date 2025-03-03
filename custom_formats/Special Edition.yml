@@ -13,11 +13,6 @@ conditions:
   pattern: Special Edition
   required: true
   type: release_title
-- name: Extended Clip
-  negate: true
-  pattern: Extended Clip
-  required: true
-  type: release_title
 - name: Open Matte
   negate: true
   pattern: Open Matte
@@ -31,11 +26,6 @@ conditions:
 - name: Sing Along
   negate: true
   pattern: Sing Along
-  required: true
-  type: release_title
-- name: Theatrical Edition
-  negate: true
-  pattern: Theatrical Edition
   required: true
   type: release_title
 tests:
