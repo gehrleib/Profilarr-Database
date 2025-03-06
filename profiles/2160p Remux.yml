@@ -31,8 +31,8 @@ tags:
 - h265
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 330
-minScoreIncrement: 5
+upgradeUntilScore: 350
+minScoreIncrement: 10
 custom_formats:
 - name: 2160p
   score: 120
@@ -43,8 +43,6 @@ custom_formats:
 - name: DTS-X
   score: 60
 - name: DTS-HD MA
-  score: 50
-- name: Special Edition
   score: 50
 - name: TrueHD
   score: 50
@@ -66,6 +64,8 @@ custom_formats:
   score: 30
 - name: MA
   score: 30
+- name: Repack3
+  score: 30
 - name: CRiT
   score: 20
 - name: HDR10+
@@ -80,6 +80,8 @@ custom_formats:
   score: 20
 - name: PMTP
   score: 20
+- name: Repack2
+  score: 20
 - name: Atmos
   score: 10
 - name: Atmos (Missing)
@@ -92,24 +94,12 @@ custom_formats:
   score: 10
 - name: iT
   score: 10
+- name: Repack1
+  score: 10
 - name: Roku
   score: 10
-- name: Repack3
-  score: 7
-- name: Repack2
-  score: 6
-- name: Repack1
-  score: 5
 - name: Unknown Lossless Audio
   score: 5
-- name: 360p
-  score: -1
-- name: 480p
-  score: -1
-- name: 540p
-  score: -1
-- name: 576p
-  score: -1
 - name: 3D
   score: -9999
 - name: 720p
