@@ -1,5 +1,5 @@
 name: DTS-X
-pattern: \bDTS(?:[ .:-]?X)(?:[ .-]?\d+(?:[ .-]?\d+)?)?\b
+pattern: \bDTS(?:[ .:-]?X)(?:[ .-]?\d{1}(?:[ .-]?\d{1})?)?\b
 description: ''
 tags:
 - Audio
