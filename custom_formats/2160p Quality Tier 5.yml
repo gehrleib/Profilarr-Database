@@ -182,7 +182,7 @@ conditions:
   type: release_group
 - name: Absinth
   negate: false
-  pattern: CMRG
+  pattern: Absinth
   required: false
   type: release_group
 - name: AViATOR

@@ -1,0 +1,38 @@
+name: WEB Quality Tier 2
+description: Groups that have established themselves as consistently delivering high-quality
+  releases.
+tags:
+- Release Group Tier
+- WEB-DL
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: MZABI
+  negate: false
+  pattern: 3D
+  required: false
+  type: release_group
+- name: PHOENiX
+  negate: false
+  pattern: 3D
+  required: false
+  type: release_group
+- name: playWEB
+  negate: false
+  pattern: 3D
+  required: false
+  type: release_group
+- name: SMURF
+  negate: false
+  pattern: 3D
+  required: false
+  type: release_group
+- name: XEBEC
+  negate: false
+  pattern: 3D
+  required: false
+  type: release_group
+tests: []

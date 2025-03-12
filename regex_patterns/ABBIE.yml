@@ -1,5 +1,5 @@
-name: CtrlHD
-pattern: (?<=^|[\s.-])CtrlHD\b
+name: ABBIE
+pattern: (?<=^|[\s.-])ABBIE\b
 description: ''
 tags:
 - Release Group
