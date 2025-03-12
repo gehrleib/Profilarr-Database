@@ -12,37 +12,22 @@ conditions:
   type: source
 - name: ABBIE
   negate: false
-  pattern: 3D
+  pattern: ABBIE
   required: false
   type: release_group
 - name: APEX
   negate: false
-  pattern: 3D
+  pattern: APEX
   required: false
   type: release_group
-- name: BLUTONiUM
+- name: CtrlHD
   negate: false
-  pattern: 3D
-  required: false
-  type: release_group
-- name: CMRG
-  negate: false
-  pattern: 3D
-  required: false
-  type: release_group
-- name: CRFW
-  negate: false
-  pattern: 3D
+  pattern: CtrlHD
   required: false
   type: release_group
 - name: FLUX
   negate: false
   pattern: FLUX
-  required: false
-  type: release_group
-- name: GNOME
-  negate: false
-  pattern: 3D
   required: false
   type: release_group
 - name: HONE
@@ -52,17 +37,12 @@ conditions:
   type: release_group
 - name: KiNGS
   negate: false
-  pattern: 3D
+  pattern: KiNGS
   required: false
   type: release_group
 - name: Kitsune
   negate: false
-  pattern: 3D
-  required: false
-  type: release_group
-- name: NOSiViD
-  negate: false
-  pattern: 3D
+  pattern: Kitsune
   required: false
   type: release_group
 - name: NTb
@@ -70,19 +50,9 @@ conditions:
   pattern: NTb
   required: false
   type: release_group
-- name: NTG
-  negate: false
-  pattern: 3D
-  required: false
-  type: release_group
-- name: SiC
-  negate: false
-  pattern: 3D
-  required: false
-  type: release_group
 - name: TEPES
   negate: false
-  pattern: 3D
+  pattern: TEPES
   required: false
   type: release_group
 tests: []
