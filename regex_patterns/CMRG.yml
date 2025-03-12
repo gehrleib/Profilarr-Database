@@ -1,0 +1,6 @@
+name: CMRG
+pattern: (?<=^|[\s.-])CMRG\b
+description: ''
+tags:
+- Release Group
+tests: []

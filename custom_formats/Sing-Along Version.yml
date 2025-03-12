@@ -1,0 +1,12 @@
+name: Sing-Along Version
+description: Versions of musical films that have sing-along lyrics hardcoded into
+  the video stream.
+tags:
+- Edition
+conditions:
+- name: Sing-Along
+  negate: true
+  pattern: Sing-Along
+  required: true
+  type: release_title
+tests: []

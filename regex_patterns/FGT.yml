@@ -1,0 +1,6 @@
+name: FGT
+pattern: (?<=^|[\s.-])FGT\b
+description: ''
+tags:
+- Release Group
+tests: []

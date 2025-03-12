@@ -9,6 +9,11 @@ conditions:
   pattern: Bravia Core
   required: true
   type: release_title
+- name: WEB-DL
+  type: source
+  required: true
+  negate: false
+  source: web_dl
 - name: WEBRip
   negate: true
   required: true

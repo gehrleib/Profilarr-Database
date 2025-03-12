@@ -1,6 +1,0 @@
-name: BEN.THE.MEN
-pattern: '[ .-]BEN[ .-]THE[ .-]MEN\b'
-description: ''
-tags:
-- Release Group
-tests: []

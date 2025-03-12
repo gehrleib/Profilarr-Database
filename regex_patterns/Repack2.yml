@@ -1,5 +1,5 @@
 name: Repack2
-pattern: \b(REPACK(?:ED)?|RERIP(?:PED)?|PROPER)2\b
+pattern: \b(?:REAL[ .-](?:REPACK|RERIP|PROPER)|(?:REPACK|RERIP?|PROPER)2)\b
 description: Matches 'PROPER2' or 'REPACK2' or 'RERIP2'.
 tags:
 - Repack

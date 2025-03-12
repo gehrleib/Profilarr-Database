@@ -33,7 +33,7 @@ tags:
 - x265
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 350
+upgradeUntilScore: 600
 minScoreIncrement: 10
 custom_formats:
 - name: 2160p Quality Tier 1
@@ -74,9 +74,9 @@ custom_formats:
   score: 60
 - name: DTS-X
   score: 60
+- name: WEB-DL
+  score: 60
 - name: DTS-HD MA
-  score: 50
-- name: Special Edition
   score: 50
 - name: TrueHD
   score: 50
@@ -120,9 +120,13 @@ custom_formats:
   score: 20
 - name: SD Quality Tier 2
   score: 20
+- name: STAN
+  score: 20
 - name: Atmos
   score: 10
 - name: Atmos (Missing)
+  score: 10
+- name: CC
   score: 10
 - name: HDR10
   score: 10
@@ -136,48 +140,48 @@ custom_formats:
   score: 10
 - name: Roku
   score: 10
+- name: SHO
+  score: 10
+- name: SYFY
+  score: 10
 - name: Unknown Lossless Audio
   score: 5
-- name: 360p
-  score: -10
-- name: 480p
-  score: -10
-- name: 540p
-  score: -10
-- name: 576p
-  score: -10
 - name: 3D
-  score: -9999
+  score: -10000
 - name: 720p
-  score: -9999
+  score: -10000
 - name: AV1
-  score: -9999
+  score: -10000
 - name: B&W
-  score: -9999
+  score: -10000
 - name: BD REMUX
-  score: -9999
+  score: -10000
 - name: Dolby Vision (Without Fallback)
-  score: -9999
+  score: -10000
 - name: Extras
-  score: -9999
+  score: -10000
 - name: Full Disc
-  score: -9999
+  score: -10000
 - name: Full Disc (Quality Match)
-  score: -9999
-- name: Non Retail HDR
-  score: -9999
+  score: -10000
+- name: Generated Dynamic HDR
+  score: -10000
 - name: UHDBits
-  score: -9999
+  score: -10000
+- name: Unwanted Groups
+  score: -10000
 - name: Unwanted x265 Groups
-  score: -9999
+  score: -10000
 - name: Upscaled
-  score: -9999
+  score: -10000
 - name: VVC
-  score: -9999
+  score: -10000
+- name: WEBRip
+  score: -10000
 - name: x264 (WEB-DL)
-  score: -9999
+  score: -10000
 - name: x265 (WEB-DL)
-  score: -9999
+  score: -10000
 qualities:
 - id: -2
   name: 2160p Transparent

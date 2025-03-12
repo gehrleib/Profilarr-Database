@@ -29,6 +29,7 @@ tags:
 - HDR
 - Lossless Audio
 - h265
+- Radarr
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 350
@@ -98,42 +99,48 @@ custom_formats:
   score: 10
 - name: Roku
   score: 10
+- name: STAN
+  score: 10
 - name: Unknown Lossless Audio
   score: 5
+- name: WEB-DL
+  score: 5
 - name: 3D
-  score: -9999
+  score: -10000
 - name: 720p
-  score: -9999
+  score: -10000
 - name: AV1
-  score: -9999
+  score: -10000
 - name: B&W
-  score: -9999
+  score: -10000
 - name: BD
-  score: -9999
+  score: -10000
 - name: Dolby Vision (Without Fallback)
-  score: -9999
+  score: -10000
 - name: Extras
-  score: -9999
+  score: -10000
 - name: Full Disc
-  score: -9999
+  score: -10000
 - name: Full Disc (Quality Match)
-  score: -9999
-- name: Non Retail HDR
-  score: -9999
+  score: -10000
+- name: Generated Dynamic HDR
+  score: -10000
+- name: Sing-Along Version
+  score: -10000
 - name: UHDBits
-  score: -9999
-- name: Unwanted Remux Groups
-  score: -9999
+  score: -10000
+- name: Unwanted Groups
+  score: -10000
 - name: Upscaled
-  score: -9999
+  score: -10000
 - name: VVC
-  score: -9999
+  score: -10000
 - name: WEBRip
-  score: -9999
+  score: -10000
 - name: x264
-  score: -9999
+  score: -10000
 - name: x265
-  score: -9999
+  score: -10000
 qualities:
 - id: 3
   name: Remux-2160p
