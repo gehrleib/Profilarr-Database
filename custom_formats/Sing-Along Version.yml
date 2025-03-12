@@ -5,7 +5,7 @@ tags:
 - Edition
 conditions:
 - name: Sing-Along
-  negate: true
+  negate: false
   pattern: Sing-Along
   required: true
   type: release_title

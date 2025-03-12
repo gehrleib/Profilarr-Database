@@ -8,9 +8,9 @@ tags:
 conditions:
 - name: Groups
   negate: false
-  pattern: Non Retail HDR Groups
+  pattern: Generated Dynamic HDR Groups
   required: true
-  type: release_title
+  type: release_group
 - name: HDR10+
   negate: false
   pattern: HDR10+
