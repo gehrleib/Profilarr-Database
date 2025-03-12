@@ -31,6 +31,7 @@ tags:
 - HDR
 - Lossless Audio
 - x265
+- Sonarr
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 600
@@ -74,6 +75,8 @@ custom_formats:
   score: 60
 - name: DTS-X
   score: 60
+- name: WEB Quality Tier 1
+  score: 60
 - name: WEB-DL
   score: 60
 - name: DTS-HD MA
@@ -81,6 +84,8 @@ custom_formats:
 - name: TrueHD
   score: 50
 - name: TrueHD (Missing)
+  score: 50
+- name: WEB Quality Tier 2
   score: 50
 - name: BCORE
   score: 40

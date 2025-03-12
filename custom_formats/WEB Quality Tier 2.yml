@@ -12,27 +12,27 @@ conditions:
   type: source
 - name: MZABI
   negate: false
-  pattern: 3D
+  pattern: MZABI
   required: false
   type: release_group
 - name: PHOENiX
   negate: false
-  pattern: 3D
+  pattern: PHOENiX
   required: false
   type: release_group
 - name: playWEB
   negate: false
-  pattern: 3D
+  pattern: playWEB
   required: false
   type: release_group
 - name: SMURF
   negate: false
-  pattern: 3D
+  pattern: SMURF
   required: false
   type: release_group
 - name: XEBEC
   negate: false
-  pattern: 3D
+  pattern: XEBEC
   required: false
   type: release_group
 tests: []
