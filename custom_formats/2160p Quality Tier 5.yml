@@ -152,7 +152,7 @@ conditions:
   type: release_group
 - name: ADE
   negate: false
-  pattern: CRFW
+  pattern: ADE
   required: false
   type: release_group
 - name: VALiS
