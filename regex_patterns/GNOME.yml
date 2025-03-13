@@ -1,6 +1,0 @@
-name: GNOME
-pattern: (?<=^|[\s.-])GNOME\b
-description: ''
-tags:
-- Release Group
-tests: []
