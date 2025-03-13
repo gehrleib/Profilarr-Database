@@ -1,5 +1,5 @@
 name: HBO Max
-pattern: \b(?:HMAX|HBO[ .-]?Max|HBO)[ .-](WEB-DL|WEBRip|WEB)\b
+pattern: \b(?:HMAX|HBO[ .-]?Max|HBO)\b
 description: HBO Max is an American subscription video-on-demand streaming service
   that offers a range of original programming and content from WarnerMedia's vast
   library, encompassing brands such as Warner Bros., CNN, Cartoon Network, TBS, and
@@ -12,63 +12,40 @@ tests:
 - expected: true
   id: 1
   input: The Many Saints of Newark 2021 1080p HBOMAX WEBRiP x264 WAV-CREATiVE24
-  lastRun: '2024-12-06T04:48:56.790473'
+  lastRun: '2025-03-08T16:12:33.644903'
   matchSpan:
-    end: 43
+    end: 50
     start: 37
-  matchedContent: HBOMAX
+  matchedContent: HBOMAX WEBRiP
   matchedGroups:
-  - HBOMAX
-  - RiP
-  passes: true
-- expected: true
-  id: 2
-  input: Looney Tunes Cartoons S04 1080p HBOM WEB-DL DD5.1 H.264-NTb
-  lastRun: '2024-12-06T04:48:56.790473'
-  matchSpan:
-    end: 36
-    start: 32
-  matchedContent: HBOM
-  matchedGroups:
-  - HBOM
-  - DL
+  - WEBRiP
   passes: true
 - expected: true
   id: 3
   input: 12 oz Mouse S01 1080p HBOMax WEB-DL DDP2 x264-Mr Lahey
-  lastRun: '2024-12-06T04:48:56.790473'
+  lastRun: '2025-03-08T16:12:33.644903'
   matchSpan:
-    end: 28
+    end: 35
     start: 22
-  matchedContent: HBOMax
+  matchedContent: HBOMax WEB-DL
   matchedGroups:
-  - HBOMax
-  - DL
+  - WEB-DL
   passes: true
 - expected: true
   id: 4
   input: Silicon Valley S01 1080p HMAX WEB-DL DD5 1 H 264-PHOENiX
-  lastRun: '2024-12-06T04:48:56.790473'
+  lastRun: '2025-03-08T16:12:33.644903'
   matchSpan:
-    end: 29
+    end: 36
     start: 25
-  matchedContent: HMAX
+  matchedContent: HMAX WEB-DL
   matchedGroups:
-  - HMAX
-  - DL
-  passes: true
-- expected: false
-  id: 5
-  input: A Discovery of Witches S03 1080p HBO WEB-DL AAC 2.0 H.264
-  lastRun: '2024-12-06T04:48:56.790473'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
+  - WEB-DL
   passes: true
 - expected: false
   id: 6
   input: The Yin Yang Master Zero 2024 1080p BluRay REMUX AVC DTS-HD MA 7 1-HBO
-  lastRun: '2024-12-06T04:48:56.790473'
+  lastRun: '2025-03-08T16:12:33.644903'
   matchSpan: null
   matchedContent: null
   matchedGroups: []

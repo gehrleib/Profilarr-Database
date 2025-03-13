@@ -1,12 +1,6 @@
 name: Repack1
-pattern: (?<=.*?\d{4}.*?)\b(re(pack|rip)|proper)\b
-description: 'Matches ''PROPER'' or ''REPACK'' or ''RERIP'' only when they appear
-  after a year (4 digits) but not before one.
-
-
-  * `(?<=.*?\d{4}.*?)` - look for a 4-digit number before
-
-  * `\b(re(pack|rip)|proper)\b` - match proper/repack/rerip'
+pattern: \b(REPACK(?:ED)?|RERIP(?:PED)?|PROPER)\b
+description: Matches 'PROPER' or 'REPACK' or 'RERIP'.
 tags:
 - Repack
 - Flag

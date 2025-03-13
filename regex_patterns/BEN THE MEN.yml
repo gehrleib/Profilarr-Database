@@ -1,0 +1,6 @@
+name: BEN THE MEN
+pattern: (?<=^|[\s.-])(?:BEN[ .-]THE[ .-]MEN|BTM)\b
+description: ''
+tags:
+- Release Group
+tests: []

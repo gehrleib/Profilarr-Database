@@ -1,0 +1,22 @@
+name: SHO
+description: Matches 'Showtime' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: Showtime
+  negate: false
+  pattern: Showtime
+  required: true
+  type: release_title
+- name: WEB-DL
+  type: source
+  required: true
+  negate: false
+  source: web_dl
+- name: WEBRip
+  negate: true
+  required: true
+  source: webrip
+  type: source
+tests: []

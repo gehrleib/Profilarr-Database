@@ -1,5 +1,5 @@
-name: SiGMA
-pattern: (?<=^|[\s.-])SiGMA\b
+name: APEX
+pattern: (?<=^|[\s.-])APEX\b
 description: ''
 tags:
 - Release Group

@@ -1,6 +1,6 @@
-name: Sing Along
+name: Sing-Along
 pattern: \bSing[ .-]Along\b
-description: Matches "Sing Along" releases.
+description: Matches "Sing-Along" releases.
 tags:
 - Edition
 tests:

@@ -1,5 +1,5 @@
 name: Apple TV+
-pattern: \b(?:ATVP|Apple[ .-]?TV\+)[ .-](WEB-DL|WEBRip|WEB)\b
+pattern: \b(?:ATVP|Apple[ .-]?TV\+)(?!\w)
 description: Apple TV+ is an American subscription OTT streaming service owned and
   operated by Apple Inc. Launched on November 1, 2019, it offers a selection of original
   production film and television series called Apple Originals.
@@ -10,21 +10,39 @@ tags:
 tests:
 - expected: true
   id: 1
-  input: Palmer.1080p.APTV.WEB-DL.DDP5.1.Atmos.H.264-EVO.mkv
-  lastRun: '2024-12-03T02:31:55.764873'
+  input: Palmer.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-EVO.mkv
+  lastRun: '2025-03-08T16:32:25.442507'
+  matchSpan:
+    end: 17
+    start: 13
+  matchedContent: ATVP
+  matchedGroups: []
   passes: true
 - expected: true
   id: 2
-  input: Fathom.1080p.APTV.WEB-DL.DDP5.1.Atmos.H.264-CMRG.mkv
-  lastRun: '2024-12-03T02:31:55.764873'
+  input: Fathom.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-CMRG.mkv
+  lastRun: '2025-03-08T16:32:25.442507'
+  matchSpan:
+    end: 17
+    start: 13
+  matchedContent: ATVP
+  matchedGroups: []
   passes: true
 - expected: false
   id: 3
   input: You.Are.the.Apple.of.My.Eye.2011.720p.BluRay.DD5.1.x264-EbP.mkv
-  lastRun: '2024-12-03T02:31:55.764873'
+  lastRun: '2025-03-08T16:32:25.442507'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
   passes: true
 - expected: true
   id: 4
   input: Men in Black 1997 2160p Apple TV+ WEB-DL DDP 5 1 Atmos DV H 265-CHDWEB
-  lastRun: '2024-12-03T02:31:55.764873'
+  lastRun: '2025-03-08T16:32:25.442507'
+  matchSpan:
+    end: 33
+    start: 24
+  matchedContent: Apple TV+
+  matchedGroups: []
   passes: true

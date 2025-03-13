@@ -28,22 +28,22 @@ tests:
     name: Remux
     negate: true
     pattern: Remux
-    required: false
+    required: true
     type: release_title
   expected: false
   id: 1
   input: 1917 (2019) 2160p UHD BluRay REMUX HEVC DV HDR10+ TrueHD Atmos 7.1 English-FraMeSToR
-  lastRun: '2024-12-07T00:14:33.451899'
+  lastRun: '2025-03-03T22:39:32.843696'
   passes: true
 - conditionResults:
   - matches: false
     name: Remux
     negate: true
     pattern: Remux
-    required: false
+    required: true
     type: release_title
   expected: true
   id: 2
   input: 7.Seconds.2005.1080p.BluRay.DD+5.1.x264-playHD.mkv
-  lastRun: '2024-12-07T00:14:33.451899'
+  lastRun: '2025-03-03T22:39:32.843696'
   passes: true

@@ -29,10 +29,11 @@ tags:
 - HDR
 - Lossless Audio
 - h265
+- Radarr
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 330
-minScoreIncrement: 5
+upgradeUntilScore: 350
+minScoreIncrement: 10
 custom_formats:
 - name: 2160p
   score: 120
@@ -44,15 +45,13 @@ custom_formats:
   score: 60
 - name: DTS-HD MA
   score: 50
-- name: Special Edition
-  score: 50
 - name: TrueHD
   score: 50
 - name: TrueHD (Missing)
   score: 50
 - name: BCORE
   score: 40
-- name: DVD Remux
+- name: DVD REMUX
   score: 40
 - name: AMZN
   score: 30
@@ -65,6 +64,8 @@ custom_formats:
 - name: FLAC
   score: 30
 - name: MA
+  score: 30
+- name: Repack3
   score: 30
 - name: CRiT
   score: 20
@@ -80,6 +81,8 @@ custom_formats:
   score: 20
 - name: PMTP
   score: 20
+- name: Repack2
+  score: 20
 - name: Atmos
   score: 10
 - name: Atmos (Missing)
@@ -92,58 +95,52 @@ custom_formats:
   score: 10
 - name: iT
   score: 10
+- name: Repack1
+  score: 10
 - name: Roku
   score: 10
-- name: Repack3
-  score: 7
-- name: Repack2
-  score: 6
-- name: Repack1
-  score: 5
+- name: STAN
+  score: 10
 - name: Unknown Lossless Audio
   score: 5
-- name: 360p
-  score: -1
-- name: 480p
-  score: -1
-- name: 540p
-  score: -1
-- name: 576p
-  score: -1
+- name: WEB-DL
+  score: 5
 - name: 3D
-  score: -9999
+  score: -10000
 - name: 720p
-  score: -9999
+  score: -10000
 - name: AV1
-  score: -9999
+  score: -10000
 - name: B&W
-  score: -9999
+  score: -10000
 - name: BD
-  score: -9999
+  score: -10000
 - name: Dolby Vision (Without Fallback)
-  score: -9999
+  score: -10000
 - name: Extras
-  score: -9999
+  score: -10000
 - name: Full Disc
-  score: -9999
+  score: -10000
 - name: Full Disc (Quality Match)
-  score: -9999
-- name: Non Retail HDR
-  score: -9999
+  score: -10000
+- name: Generated Dynamic HDR
+  score: -10000
+- name: Sing-Along Version
+  score: -10000
 - name: UHDBits
-  score: -9999
-- name: Unwanted Remux Groups
-  score: -9999
+  score: -10000
+- name: Unwanted Groups
+  score: -10000
 - name: Upscaled
-  score: -9999
+  score: -10000
 - name: VVC
-  score: -9999
+  score: -10000
 - name: WEBRip
-  score: -9999
+  score: -10000
 - name: x264
-  score: -9999
+  score: -10000
 - name: x265
-  score: -9999
+  score: -10000
 qualities:
 - id: 3
   name: Remux-2160p

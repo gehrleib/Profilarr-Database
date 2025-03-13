@@ -1,0 +1,13 @@
+name: WEB-DL
+description: A WEB-DL stands for "Web Download" and refers to a digital video file
+  that has been ripped directly from a streaming service like Netflix, Amazon Prime
+  Video, or Hulu, essentially capturing the video stream without re-encoding it.
+tags:
+- Source
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+tests: []

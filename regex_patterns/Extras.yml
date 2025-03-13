@@ -1,6 +1,6 @@
 name: Extras
-pattern: (?i)(?<=\b[12]\d{3}\b).*(\b|\.)\b(Extras?|Bonus|Extended[ ._-]Clip|Special
-  Feature[s]?)\b
+pattern: (?i)(?<=\b[12]\d{3}\b).*(\b|\.)\b(Extras?|Bonus|Extended[ .-]Clip|Special[
+  .-]Features?)\b
 description: Extras, Special Features, Featurettes, etc
 tags:
 - Unwanted

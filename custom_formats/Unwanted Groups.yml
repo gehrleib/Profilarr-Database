@@ -1,0 +1,38 @@
+name: Unwanted Groups
+description: 'Matches otherwise unfavourable groups.
+
+
+  **Bloat:** FGT, LEGi0N, RARBG
+
+
+  **Dual Audio:** BTM, MeM.GP'
+tags:
+- Release Group
+- Unwanted
+conditions:
+- name: BTM
+  negate: false
+  pattern: BEN THE MEN
+  required: false
+  type: release_title
+- name: FGT
+  negate: false
+  pattern: FGT
+  required: false
+  type: release_title
+- name: LEGi0N
+  negate: false
+  pattern: LEGi0N
+  required: false
+  type: release_title
+- name: MeM.GP
+  negate: false
+  pattern: MeM.GP
+  required: false
+  type: release_title
+- name: RARBG
+  negate: false
+  pattern: RARBG
+  required: false
+  type: release_title
+tests: []

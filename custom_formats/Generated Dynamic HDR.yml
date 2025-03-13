@@ -1,0 +1,72 @@
+name: Generated Dynamic HDR
+description: A collection of groups known for generating their own dynamic HDR metadata
+  - Dolby Vision and/or HDR10+
+tags:
+- HDR
+- Release Group
+- Unwanted
+conditions:
+- name: Groups
+  negate: false
+  pattern: Generated Dynamic HDR Groups
+  required: true
+  type: release_group
+- name: HDR10+
+  negate: false
+  pattern: HDR10+
+  required: false
+  type: release_title
+- name: Dolby Vision
+  negate: false
+  pattern: Dolby Vision
+  required: false
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: Groups
+    negate: false
+    pattern: Non Retail HDR Groups
+    required: true
+    type: release_title
+  - matches: false
+    name: HDR10+
+    negate: false
+    pattern: HDR10+
+    required: false
+    type: release_title
+  - matches: true
+    name: Dolby Vision
+    negate: false
+    pattern: Dolby Vision
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Longlegs 2024 2160p BluRay REMUX DTS-HD MA 5 1 DV HDR H 265-SasukeducK
+  lastRun: '2025-03-08T17:57:54.128854'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Groups
+    negate: false
+    pattern: Non Retail HDR Groups
+    required: true
+    type: release_title
+  - matches: true
+    name: HDR10+
+    negate: false
+    pattern: HDR10+
+    required: false
+    type: release_title
+  - matches: false
+    name: Dolby Vision
+    negate: false
+    pattern: Dolby Vision
+    required: false
+    type: release_title
+  expected: false
+  id: 2
+  input: Longlegs 2024 UHD BluRay 2160p DTS-HD MA 5.1 HDR10+ HEVC HYBRID REMUX-126811
+  lastRun: '2025-03-08T17:57:54.128854'
+  passes: true

@@ -1,12 +1,6 @@
 name: Repack2
-pattern: \b(real[\s.]?(re(pack|rip)|proper)|(re(pack|rip)|proper)2)\b
-description: 'Matches either "real" (with optional space/dot) followed by proper/repack/rerip,
-  or proper2/repack2/rerip2
-
-
-  * `\b(real[\s.]?(re(pack|rip)|proper)` - match real followed by proper/repack/rerip
-
-  * `|(re(pack|rip)|proper)2)\b` - or match proper2/repack2/rerip2'
+pattern: \b(?:REAL[ .-](?:REPACK|RERIP|PROPER)|(?:REPACK|RERIP?|PROPER)2)\b
+description: Matches 'PROPER2' or 'REPACK2' or 'RERIP2'.
 tags:
 - Repack
 - Flag

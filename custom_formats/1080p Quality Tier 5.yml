@@ -23,7 +23,7 @@ conditions:
   source: dvd
 - name: AJP69
   negate: false
-  pattern: AJP69
+  pattern: NOSiViD
   required: false
   type: release_group
 - name: BV

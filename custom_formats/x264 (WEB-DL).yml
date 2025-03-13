@@ -1,0 +1,16 @@
+name: x264 (WEB-DL)
+description: Matches `x264` and `WEB-DL` regex pattern.
+tags:
+- Codec
+conditions:
+- name: x264
+  negate: false
+  pattern: x264
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+tests: []

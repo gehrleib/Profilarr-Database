@@ -13,7 +13,7 @@ tests:
 - expected: false
   id: 1
   input: HDR
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -21,7 +21,7 @@ tests:
 - expected: false
   id: 2
   input: HDR+
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -29,7 +29,7 @@ tests:
 - expected: false
   id: 3
   input: HDR10
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -37,7 +37,7 @@ tests:
 - expected: true
   id: 4
   input: HDR10+
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan:
     end: 6
     start: 0
@@ -51,7 +51,7 @@ tests:
 - expected: false
   id: 5
   input: HLG HDR
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -59,7 +59,7 @@ tests:
 - expected: false
   id: 6
   input: SDR HDR
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -67,7 +67,7 @@ tests:
 - expected: false
   id: 7
   input: PQ HDR
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -75,7 +75,7 @@ tests:
 - expected: true
   id: 8
   input: HDR10P
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan:
     end: 6
     start: 0
@@ -89,7 +89,7 @@ tests:
 - expected: true
   id: 9
   input: HDR10Plus
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan:
     end: 9
     start: 0
@@ -104,7 +104,7 @@ tests:
   id: 10
   input: Schindler's List (1993) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR10+ TrueHD
     Atmos 7.1 English-WiLDCAT
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan:
     end: 68
     start: 62
@@ -119,7 +119,7 @@ tests:
   id: 11
   input: La Maison S01 REPACK 2160p ATVP WEB-DL Dual-Audio DD+ 5.1 Atmos DV HDR10+
     H.265-Kitsune
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan:
     end: 73
     start: 67
@@ -134,7 +134,7 @@ tests:
   id: 12
   input: Liu lang di qiu 2 AKA The Wandering Earth II 2023 2160p CHN UHD Blu-ray DoVi
     HDR10 HEVC TrueHD 7.1 Atmos-ANKO
-  lastRun: '2024-12-13T09:52:40.529508'
+  lastRun: '2025-03-08T22:04:42.423950'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
