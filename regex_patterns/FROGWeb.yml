@@ -1,0 +1,6 @@
+name: FROGWeb
+pattern: (?<=^|[\s.-])FROGWeb\b
+description: ''
+tags:
+- Release Group
+tests: []

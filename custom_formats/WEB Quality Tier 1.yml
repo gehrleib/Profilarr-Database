@@ -30,6 +30,11 @@ conditions:
   pattern: FLUX
   required: false
   type: release_group
+- name: FROGWeb
+  type: release_group
+  required: false
+  negate: false
+  pattern: FROGWeb
 - name: HONE
   negate: false
   pattern: HONE
