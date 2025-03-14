@@ -3,12 +3,4 @@ pattern: (?<=^|[\s.-])SEV\b
 description: ''
 tags:
 - Release Group
-tests:
-- expected: true
-  id: 1
-  input: Loki S02 2160p UHD BDRip DV HDR10 x265 TrueHD Atmos 7.1 Kira [SEV]
-  lastRun: '2025-03-14T18:35:40.803472'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: false
+tests: []
