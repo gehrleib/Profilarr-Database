@@ -15,6 +15,11 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: b0mbardiers
+  negate: false
+  pattern: b0mbardiers
+  required: false
+  type: release_group
 - name: DON
   negate: false
   pattern: DON
@@ -25,19 +30,14 @@ conditions:
   pattern: DEPTH
   required: false
   type: release_group
-- name: HQMUX
-  negate: false
-  pattern: HQMUX
-  required: false
-  type: release_group
-- name: b0mbardiers
-  negate: false
-  pattern: b0mbardiers
-  required: false
-  type: release_group
 - name: CtrlHD
   negate: false
   pattern: CtrlHD
+  required: false
+  type: release_group
+- name: HQMUX
+  negate: false
+  pattern: HQMUX
   required: false
   type: release_group
 - name: PTer
@@ -48,6 +48,11 @@ conditions:
 - name: SA89
   negate: false
   pattern: SA89
+  required: false
+  type: release_group
+- name: SEV
+  negate: false
+  pattern: SEV
   required: false
   type: release_group
 - name: W4NK3R
