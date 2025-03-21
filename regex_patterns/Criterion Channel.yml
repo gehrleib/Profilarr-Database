@@ -1,5 +1,5 @@
 name: Criterion Channel
-pattern: \b(CRiT)\b
+pattern: \b(CRiT)[ .-]?(WEB-DL|WEBRip|WEB)\b
 description: The Criterion Channel is a subscription-based streaming service launched
   on April 8, 2019, by The Criterion Collection. Available in the United States and
   Canada, it features a rich library of films, including Criterion Collection releases

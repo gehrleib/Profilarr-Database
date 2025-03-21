@@ -27,7 +27,7 @@ conditions:
   type: release_title
 - name: MeM.GP
   negate: false
-  pattern: MeM.GP
+  pattern: MeM
   required: false
   type: release_title
 - name: RARBG

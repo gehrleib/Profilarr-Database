@@ -1,5 +1,5 @@
-name: MeM.GP
-pattern: (?<=^|[\s.-])MeM.GP\b
+name: MeM
+pattern: (?<=^|[\s.-])(MeM|MeM.GP)\b
 description: ''
 tags:
 - Release Group

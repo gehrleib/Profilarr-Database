@@ -1,0 +1,6 @@
+name: QxR
+pattern: (?<=^|[\s.-])(Silence|afm72|Panda|Ghost|MONOLITH|ImE|Vyndros|Garshasp|Kappa|Natty|RCVR|SAMPA|YOGI|r00t|RZeroX)\b
+description: ''
+tags:
+- Release Group
+tests: []

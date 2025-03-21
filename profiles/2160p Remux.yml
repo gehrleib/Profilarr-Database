@@ -83,9 +83,13 @@ custom_formats:
   score: 20
 - name: Repack2
   score: 20
+- name: STAN
+  score: 20
 - name: Atmos
   score: 10
 - name: Atmos (Missing)
+  score: 10
+- name: CC
   score: 10
 - name: HDR10
   score: 10
@@ -93,17 +97,19 @@ custom_formats:
   score: 10
 - name: Hulu
   score: 10
+- name: iP
+  score: 10
 - name: iT
   score: 10
 - name: Repack1
   score: 10
 - name: Roku
   score: 10
-- name: STAN
+- name: SHO
+  score: 10
+- name: SYFY
   score: 10
 - name: Unknown Lossless Audio
-  score: 5
-- name: WEB-DL
   score: 5
 - name: 3D
   score: -10000

@@ -1,5 +1,5 @@
 name: Showtime
-pattern: \b(?:SHO|Showtime)\b
+pattern: \b(?:SHO|Showtime)[ .-]?(WEB-DL|WEBRip|WEB)\b
 description: Paramount+ with Showtime, also known as Showtime (the former name of
   its main channel from 1976 to 2024, but still used for certain marketing and channel
   branding contexts), is an American premium television network and the flagship property

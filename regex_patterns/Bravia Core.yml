@@ -1,5 +1,5 @@
 name: Bravia Core
-pattern: \b(?:BCORE|CORE)\b
+pattern: \b(?:BCORE|CORE)[ .-]?(WEB-DL|WEBRip|WEB)\b
 description: ''
 tags:
 - Streaming Service

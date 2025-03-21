@@ -21,11 +21,6 @@ conditions:
   pattern: BMF
   required: false
   type: release_group
-- name: de[42]
-  negate: false
-  pattern: de[42]
-  required: false
-  type: release_group
 - name: HDMaNiAcS
   negate: false
   pattern: HDMaNiAcS

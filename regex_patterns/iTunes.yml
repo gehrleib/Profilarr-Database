@@ -1,5 +1,5 @@
 name: iTunes
-pattern: \b(?:IT|iTunes)\b
+pattern: \b(?:IT|iTunes)[ .-]?(WEB-DL|WEBRip|WEB)\b
 description: 'iTunes began offering video content in October 2005 with the release
   of iTunes 6. At launch, the iTunes Store provided popular TV shows from ABC, Disney
   Channel, and other networks. Users could purchase and view video content, such as

@@ -1,5 +1,5 @@
 name: HBO Max
-pattern: \b(?:HMAX|HBO[ .-]?Max|HBO)\b
+pattern: \b(?:HMAX|HBO[ .-]?Max|HBO)[ .-]?(WEB-DL|WEBRip|WEB)\b
 description: HBO Max is an American subscription video-on-demand streaming service
   that offers a range of original programming and content from WarnerMedia's vast
   library, encompassing brands such as Warner Bros., CNN, Cartoon Network, TBS, and
