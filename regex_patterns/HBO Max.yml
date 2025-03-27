@@ -1,13 +1,13 @@
 name: HBO Max
-pattern: \b(?:HMAX|HBO[ .-]?Max|HBO)\b
+pattern: \b(?:HMAX|HBO[ .-]?Max|HBO)[ .-]?(WEB-DL|WEBRip|WEB)\b
 description: HBO Max is an American subscription video-on-demand streaming service
   that offers a range of original programming and content from WarnerMedia's vast
   library, encompassing brands such as Warner Bros., CNN, Cartoon Network, TBS, and
   Turner Classic Movies. In mid-to-late 2023, HBO Max underwent a rebranding to "Max".
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: true
   id: 1

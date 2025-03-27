@@ -22,7 +22,7 @@ conditions:
   type: release_group
 - name: BHDStudio
   negate: false
-  pattern: BHDStudio
+  pattern: QxR
   required: false
   type: release_group
 tests:

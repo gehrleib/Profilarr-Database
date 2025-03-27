@@ -1,0 +1,6 @@
+name: G66
+pattern: (?<=^|[\s.-])G66\b
+description: ''
+tags:
+- Release Group
+tests: []

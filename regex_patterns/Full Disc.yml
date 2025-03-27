@@ -1,11 +1,8 @@
 name: Full Disc
-pattern: ^(?!.*\b((?<!HD[._ -]|HD)DVD|BDRip|MKV|XviD|WMV|d3g|BDREMUX|REMUX|^(?=.*1080p)(?=.*HEVC)|[xh][-_.
-  ]?26[45]|German.*DL|((?<=\d{4}).*German.*(DL)?)(?=.*\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_.
-  ]?2)\b))\b)(((?=.*\b(Blu[-_. ]?ray|BD|HD[-_. ]?DVD)\b)(?=.*\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_.
-  ]?2|BDMV|ISO)\b))|^((?=.*\b(^((?=.*\b((.*_)?COMPLETE.*|Dis[ck])\b)(?=.*(Blu[-_.
-  ]?ray|HD[-_. ]?DVD)))|3D[-_. ]?BD|BR[-_. ]?DISK|Full[-_. ]?Blu[-_. ]?ray|^((?=.*((BD|UHD)[-_.
-  ]?(25|50|66|100|ISO)))))))).*|(?i)(DVD9|DVD5|NTSC|PAL|VOB IFO|VC-1|AVC|MPEG-2|\bCOMPLETE[-.\s]?(?:UHD[-.\s])?BLU[-.\s]?RAY\b|\bCOMPLETE
-  BLURAY\b|\bBR-Disk\b)
+pattern: (?:(?!S\d{2}E\d{2}).)*?(\b|\.)(?:\b(ISO|BDMV|VIDEO_TS|DVD[59]|(?:BD|UHD)[-_.
+  ]?(?:25|50|66|100)|COMPLETE(?:[-_. ]?(?:UHD|BLURAY))?|Full[-_. ]?(?:Blu[-_. ]?ray|BD)|BR[-_.
+  ]?DISK|Dis[ck]|VOB|IFO|NTSC|PAL)\b|^(?!.*\b(REMUX|BDRip|Rip|WEBDL|WEB[-_. ]?Rip|Encode|x264|h264|x265|h265|MKV|XviD|MP4)\b)(?=.*\b(Blu[-_.
+  ]?ray|HD[-_. ]?DVD|DVD\b(?!rip))\b)(?=.*\b(AVC|HEVC|VC[-_. ]?1|MPEG[-_. ]?2)\b).*)
 description: A Full Disc release refers to a complete copy of a physical media disc,
   such as a DVD or Blu-ray, preserving all original content including menus, bonus
   features, and multiple audio or subtitle tracks. Unlike compressed or re-encoded
@@ -19,7 +16,7 @@ tests:
 - expected: true
   id: 1
   input: Bleach.S14.NTSC.DVD.LPCM2.0-NOGRP
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-03-19T00:13:09.203778'
   matchSpan:
     end: 15
     start: 11
@@ -48,7 +45,7 @@ tests:
 - expected: true
   id: 2
   input: "The Prisoner 2009 S01 1080i Blu-ray AVC DTS-HD MA 5.1-CultFilms\u2122"
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-03-19T00:13:09.203778'
   matchSpan:
     end: 64
     start: 0
@@ -77,7 +74,7 @@ tests:
 - expected: true
   id: 3
   input: Scissor.Penis.2018.1080i.Blu-ray.AVC.DTS-HD.MA.2.0
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-03-19T00:13:09.203778'
   matchSpan:
     end: 50
     start: 0
@@ -106,7 +103,7 @@ tests:
 - expected: true
   id: 4
   input: "Heaven's Prisoners 1996 1080p AUS Blu-ray AVC LPCM 2.0-CultFilms\u2122"
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-03-19T00:13:09.203778'
   matchSpan:
     end: 65
     start: 0
@@ -135,7 +132,7 @@ tests:
 - expected: true
   id: 5
   input: Hors-saison.2024.VOF.1080p.FRA.BluRay.AVC.DTS-HD.MA.5.1-RyanHG
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-03-19T00:13:09.203778'
   matchSpan:
     end: 62
     start: 0
@@ -164,7 +161,7 @@ tests:
 - expected: true
   id: 6
   input: El.Aviso.2018.SPANiSH.COMPLETE.BLURAY-CEBCOM
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-03-19T00:13:09.203778'
   matchSpan:
     end: 44
     start: 0

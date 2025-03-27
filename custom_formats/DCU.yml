@@ -1,12 +1,12 @@
-name: CRiT
-description: Matches 'Criterion Channel' WEB-DLs. Negates any encodes.
+name: DCU
+description: Matches 'DC Universe WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: Criterion Channel
+- name: DC Universe
   negate: false
-  pattern: Criterion Channel
+  pattern: DC Universe
   required: true
   type: release_title
 - name: WEBRip

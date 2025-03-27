@@ -1,5 +1,5 @@
 name: Colourisation
-pattern: \bcolou?r(i[sz]ed?|ed)?\b
+pattern: (?<=\b[12]\d{3}\b)(?:(?!S\d{2}E\d{2}).)*?(\b|\.)(?<!(No|Minus)[ .-])colou?r(i[sz]ed?|ed)?\b
 description: Colourisation (or colorization in American English) is the process of
   adding colour to black-and-white, sepia, or other monochrome images. Matches variations
   of `colour` in both American and British spellings.
@@ -9,63 +9,89 @@ tags:
 tests:
 - expected: true
   id: 1
-  input: colour
-  lastRun: '2025-02-22T19:10:06.067266'
+  input: Movie.Title.1989.Colour
+  lastRun: '2025-03-27T11:50:59.007952'
   matchSpan:
-    end: 6
-    start: 0
-  matchedContent: colour
+    end: 23
+    start: 16
+  matchedContent: .Colour
   matchedGroups:
+  - .
+  - null
   - null
   passes: true
 - expected: true
   id: 3
-  input: coloured
-  lastRun: '2025-02-22T19:10:06.067266'
+  input: Movie.Title.1989.Coloured
+  lastRun: '2025-03-27T11:50:59.007952'
   matchSpan:
-    end: 8
-    start: 0
-  matchedContent: coloured
+    end: 25
+    start: 16
+  matchedContent: .Coloured
   matchedGroups:
+  - .
+  - null
   - ed
   passes: true
 - expected: true
   id: 4
-  input: colourise
-  lastRun: '2025-02-22T19:10:06.067266'
+  input: Movie.Title.1989.Colourise
+  lastRun: '2025-03-27T11:50:59.007952'
   matchSpan:
-    end: 9
-    start: 0
-  matchedContent: colourise
+    end: 26
+    start: 16
+  matchedContent: .Colourise
   matchedGroups:
+  - .
+  - null
   - ise
   passes: true
 - expected: true
   id: 7
-  input: colourised
-  lastRun: '2025-02-22T19:10:06.067266'
+  input: Movie.Title.1989.Colourised
+  lastRun: '2025-03-27T11:50:59.007952'
   matchSpan:
-    end: 10
-    start: 0
-  matchedContent: colourised
+    end: 27
+    start: 16
+  matchedContent: .Colourised
   matchedGroups:
+  - .
+  - null
   - ised
   passes: true
 - expected: true
   id: 8
-  input: colored
-  lastRun: '2025-02-22T19:10:06.067266'
+  input: Movie.Title.1989.Colored
+  lastRun: '2025-03-27T11:50:59.007952'
   matchSpan:
-    end: 7
-    start: 0
-  matchedContent: colored
+    end: 24
+    start: 16
+  matchedContent: .Colored
   matchedGroups:
+  - .
+  - null
   - ed
   passes: true
 - expected: false
   id: 9
-  input: discolor
-  lastRun: '2025-02-22T19:10:06.067266'
+  input: Movie.Title.1989.Discolor
+  lastRun: '2025-03-27T11:50:59.007952'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 10
+  input: Movie.Title.1989.No-Colour
+  lastRun: '2025-03-27T11:50:59.007952'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 11
+  input: Johnny.Bravo.1997.S03E47.The.Color.of.Mustard
+  lastRun: '2025-03-27T11:50:59.007952'
   matchSpan: null
   matchedContent: null
   matchedGroups: []

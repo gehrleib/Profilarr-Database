@@ -1,12 +1,12 @@
 name: Amazon Prime
-pattern: \b(?:AMZN|Amazon)\b
+pattern: \b(?:AMZN|Amazon)[ .-]?(WEB-DL|WEBRip|WEB)\b
 description: Amazon Prime Video, or simply Prime Video, is an American subscription
   video on-demand over-the-top streaming and rental service of Amazon offered both
   as a stand-alone service and as part of Amazon's Prime subscription.
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: true
   id: 1

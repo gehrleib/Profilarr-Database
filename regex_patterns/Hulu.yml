@@ -1,13 +1,13 @@
 name: Hulu
-pattern: \b(Hulu)\b
+pattern: \b(Hulu)[ .-]?(WEB-DL|WEBRip|WEB)\b
 description: Hulu, an American subscription streaming service owned by Disney, offers
   recent TV episodes, full seasons of shows, original content, and live TV channels.
   As of December 2023, Hulu content is being integrated into Disney+, making its library
   accessible to Disney+ subscribers.
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: true
   id: 1

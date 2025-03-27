@@ -1,5 +1,5 @@
 name: Paramount+
-pattern: \b(?:PMTP|Paramount\+|ParamountPlus)(?!\w)
+pattern: \b(?:PMTP|Paramount\+|ParamountPlus)[ .-]?(WEB-DL|WEBRip|WEB)(?!\w)
 description: 'Paramount+ is an American subscription video on-demand over-the-top
   streaming service owned that offers content primarily from the libraries of CBS
   Media Ventures, CBS Studios, Paramount Media Networks and Paramount Pictures, while
@@ -7,8 +7,8 @@ description: 'Paramount+ is an American subscription video on-demand over-the-to
   the United States, live streaming of local CBS broadcast stations. '
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: true
   id: 1

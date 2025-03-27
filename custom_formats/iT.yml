@@ -9,11 +9,6 @@ conditions:
   pattern: iTunes
   required: true
   type: release_title
-- name: WEB-DL
-  negate: false
-  required: true
-  source: web_dl
-  type: source
 - name: WEBRip
   negate: true
   required: true

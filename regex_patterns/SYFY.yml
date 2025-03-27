@@ -1,10 +1,9 @@
 name: SYFY
-pattern: \b(SYFY)\b
+pattern: \b(SYFY)[ .-]?(WEB-DL|WEBRip|WEB)\b
 description: Syfy is an American basic cable television channel. Launched on September
   24, 1992, the channel broadcasts programming relating to the science fiction, horror,
   and fantasy genres.
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- TV
 tests: []

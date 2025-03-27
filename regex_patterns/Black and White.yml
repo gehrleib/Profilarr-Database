@@ -1,0 +1,76 @@
+name: Black and White
+pattern: (?i)(?<=\b[12]\d{3}\b)(?:(?!S\d{2}E\d{2}).)*?(\b|\.)(Black[ .-]and[ .-]White|Black[
+  .-]&[ .-]White|BW|B&W|Black[ .-]and[ .-]Chrome|Black[ .-]&[ .-]Chrome|Noir|(No|Minus)[
+  .-]Colou?r)\b
+description: 'This matches terms related to black & white, monochrome, or lack of
+  colour grading. It finds terms such as: `Black and White`,  `Black & White`, `BW`,
+  `B&W`, `Black and Chrome`, `Black & Chrome`, `Noir`, `No Colour`, `Minus Colour`'
+tags:
+- Enhancement
+- Unwanted
+- Colour Grade
+tests:
+- expected: false
+  id: 2
+  input: Black and White 2002 1080p Blu-ray AVC DTS-HD MA 5.1-CultFilms
+  lastRun: '2025-03-27T13:49:51.627944'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 3
+  input: 'Pokemon the Movie: Black and White-Victini and Reshiram Zekrom 2011 1080p
+    AUS BD50 DTS-HD MA 5.1 AVC-PHOENiX'
+  lastRun: '2025-03-27T13:49:51.627944'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 4
+  input: Madeo 2009 Black & White Version 1080p JPN Blu-ray AVC TrueHD 5.1-kyRLS
+  lastRun: '2025-03-27T13:49:51.627944'
+  matchSpan:
+    end: 24
+    start: 10
+  matchedContent: ' Black & White'
+  matchedGroups:
+  - ''
+  - Black & White
+  - null
+  passes: true
+- expected: true
+  id: 6
+  input: Psycho (1960) B&W
+  lastRun: '2025-03-27T13:49:51.627944'
+  matchSpan:
+    end: 17
+    start: 12
+  matchedContent: ) B&W
+  matchedGroups:
+  - ''
+  - B&W
+  - null
+  passes: true
+- expected: true
+  id: 7
+  input: Citizen Kane (1941) Black.and.White
+  lastRun: '2025-03-27T13:49:51.627944'
+  matchSpan:
+    end: 35
+    start: 18
+  matchedContent: ) Black.and.White
+  matchedGroups:
+  - ''
+  - Black.and.White
+  - null
+  passes: true
+- expected: false
+  id: 12
+  input: Jack Black & Betty White in a Comedy Special
+  lastRun: '2025-03-27T13:49:51.627944'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

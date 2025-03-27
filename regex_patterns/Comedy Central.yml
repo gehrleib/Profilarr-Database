@@ -1,11 +1,10 @@
 name: Comedy Central
-pattern: \b(?:CC|Comedy[ .-]Central)\b
+pattern: \b(?:CC|Comedy[ .-]Central)[ .-]?(WEB-DL|WEBRip|WEB)\b
 description: Comedy Central is an American cable channel owned by Paramount Global
   through its network division's MTV Entertainment Group unit, based in Manhattan.
   The channel carries comedy programming in the form of both original, licensed, and
   syndicated television series, stand-up comedy specials, and feature films.
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- TV
 tests: []
