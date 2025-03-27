@@ -1,12 +1,10 @@
 name: 3D
-pattern: \b((bluray|bd)?3d|sbs|half[ .-]ou|half[ .-]sbs)\b
-description: 'Matches terms related to 3D video formats:
-
-  - `bluray3d` or `bd3d` (optional `bluray` or `bd` followed by `3d`).
-
-  - `sbs` (side-by-side).
-
-  - `half ou` or `half sbs` with space (` `), dot (`.`), or hyphen (`-`) as separators.'
+pattern: (?<=\b[12]\d{3}\b)(?:(?!S\d{2}E\d{2}).)*?(\b|\.)((bluray|bd)?3d|sbs|half[
+  .-]ou|half[ .-]sbs)\b
+description: Matches 3D-related terms (like `3D`, `SBS`, `Half-OU`) that appear after
+  a year (e.g., `2023`) and are separated by a dot or word boundary. It specifically
+  ignores matches where a TV show marker (like `S01E01`) appears between the year
+  and the 3D term.
 tags:
 - Enhancement
 - Unwanted
@@ -14,24 +12,26 @@ tests:
 - expected: true
   id: 1
   input: Universal.Soldier.Day.of.Reckoning.2012.1080p.BluRay.3D.H-SBS.DTS.x264-BluRay3D
-  lastRun: '2024-12-13T06:50:15.135830'
+  lastRun: '2025-03-27T00:17:48.852494'
   matchSpan:
     end: 55
-    start: 53
-  matchedContent: 3D
+    start: 39
+  matchedContent: .1080p.BluRay.3D
   matchedGroups:
+  - .
   - 3D
   - null
   passes: true
 - expected: true
   id: 2
   input: Justin.And.The.Knights.Of.Valour.3D.2013.1080p.BluRay.Half-SBS.x264-BluRay3D
-  lastRun: '2024-12-13T06:50:15.135830'
+  lastRun: '2025-03-27T00:17:48.852494'
   matchSpan:
-    end: 35
-    start: 33
-  matchedContent: 3D
+    end: 62
+    start: 40
+  matchedContent: .1080p.BluRay.Half-SBS
   matchedGroups:
-  - 3D
+  - .
+  - Half-SBS
   - null
   passes: true

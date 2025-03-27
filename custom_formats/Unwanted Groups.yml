@@ -5,7 +5,7 @@ description: 'Matches otherwise unfavourable groups.
   **Bloat:** FGT, LEGi0N, RARBG
 
 
-  **Dual Audio:** BTM, MeM.GP'
+  **Dual Audio:** BTM, MeM.GP, G66'
 tags:
 - Release Group
 - Unwanted
@@ -35,4 +35,9 @@ conditions:
   pattern: RARBG
   required: false
   type: release_title
+- name: G66
+  type: release_title
+  required: false
+  negate: false
+  pattern: G66
 tests: []

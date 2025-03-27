@@ -20,6 +20,11 @@ conditions:
   pattern: hallowed
   required: false
   type: release_group
+- name: QxR
+  type: release_group
+  required: false
+  negate: false
+  pattern: QxR
 tests:
 - conditionResults:
   - matches: true

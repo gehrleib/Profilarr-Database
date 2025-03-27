@@ -1,15 +1,26 @@
 name: Extras
-pattern: (?i)(?<=\b[12]\d{3}\b).*(\b|\.)\b(Extras?|Bonus|Extended[ .-]Clip|Special[
-  .-]Features?)\b
-description: Extras, Special Features, Featurettes, etc
+pattern: (?i)(?<=\b[12]\d{3}\b)(?:(?!S\d{2}E\d{2}).)*?(\b|\.)(Extras?|Bonus|Extended[
+  .-]Clip|Special[ .-]Features?)\b
+description: Identifies `Extras`, `Bonus`, or `Special Features` that appear after
+  a 4-digit year (like `2023`), but only if a TV show season/episode marker (like
+  `S01E01`) does not appear anywhere between that year and the keyword.
 tags:
 - Unwanted
 - Extras
 tests:
 - expected: false
   id: 1
-  input: E.T..el.ExtraTerrestre.30.Aniversario.1982.mHD.10Bits.1080p.BluRay.DD5.1.HEVC-TMd.mkv
-  lastRun: '2025-02-07T06:19:53.936128'
+  input: E T The Extra-Terrestrial 1982 REPACK 2160p UHD Blu-ray Remux HDR HEVC FLAC
+    2 0-CiNEPHiLES
+  lastRun: '2025-03-27T00:03:53.373352'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: My.Show.2023.S01E01.Special.Features
+  lastRun: '2025-03-27T00:03:53.373352'
   matchSpan: null
   matchedContent: null
   matchedGroups: []

@@ -15,9 +15,4 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: QxR
-  negate: false
-  pattern: QxR
-  required: true
-  type: release_group
 tests: []
