@@ -1,10 +1,26 @@
-name: B&W
-pattern: \d{4}.*?\bblack\b[\s.]*(?:and|\&|-|\/)?[\s.]*\bwhite\b|\bb\&?w\b
-description: Black and White colour grading. This regex matches a 4-digit number (optionally
-  surrounded by parentheses), followed by any amount of text, and then detects references
-  to "black and white" in various formats. It supports `blackwhite` (no spaces), `black
-  and white`, `black-white`, "`black & white`, `black/white`, as well as shorthand
-  `BW` and `B&W`, while excluding invalid variations like `b w`, `b-w`, or `b/w`
+name: Black and White
+pattern: (?i)(?<=\b[12]\d{3}\b)(?:(?!S\d{2}E\d{2}).)*?(\b|\.)\b(Black[ .-]and[ .-]White|Black[
+  .-]&[ .-]White|B&W|Black[ .-]and[ .-]Chrome|Black[ .-]&[ .-]Chrome|Noir|(No|Minus)[
+  .-]Colou?r)\b
+description: 'Black and White colour grading. This regex matches terms related to
+  black & white, monochrome, or lack of colour within text. It finds terms such as:
+
+
+  - `Black and White`
+
+  - `Black & White`
+
+  - `B&W`
+
+  - `Black and Chrome`
+
+  - `Black & Chrome`
+
+  - `Noir`
+
+  - `No Color / No Colour`
+
+  - `Minus Color / Minus Colour`'
 tags:
 - Enhancement
 - Unwanted
@@ -13,7 +29,7 @@ tests:
 - expected: false
   id: 2
   input: Black and White 2002 1080p Blu-ray AVC DTS-HD MA 5.1-CultFilms
-  lastRun: '2025-02-27T00:36:10.583655'
+  lastRun: '2025-03-27T12:36:00.957925'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -22,7 +38,7 @@ tests:
   id: 3
   input: 'Pokemon the Movie: Black and White-Victini and Reshiram Zekrom 2011 1080p
     AUS BD50 DTS-HD MA 5.1 AVC-PHOENiX'
-  lastRun: '2025-02-27T00:36:10.583655'
+  lastRun: '2025-03-27T12:36:00.957925'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -30,57 +46,62 @@ tests:
 - expected: true
   id: 4
   input: Madeo 2009 Black & White Version 1080p JPN Blu-ray AVC TrueHD 5.1-kyRLS
-  lastRun: '2025-02-27T00:36:10.583655'
+  lastRun: '2025-03-27T12:36:00.957925'
   matchSpan:
     end: 24
-    start: 6
-  matchedContent: 2009 Black & White
-  matchedGroups: []
+    start: 10
+  matchedContent: ' Black & White'
+  matchedGroups:
+  - ''
   passes: true
 - expected: true
   id: 6
   input: Psycho (1960) B&W
-  lastRun: '2025-02-27T00:36:10.583655'
+  lastRun: '2025-03-27T12:36:00.957925'
   matchSpan:
     end: 17
     start: 14
   matchedContent: B&W
-  matchedGroups: []
+  matchedGroups:
+  - null
   passes: true
 - expected: true
   id: 7
   input: Citizen Kane (1941) Black.and.White
-  lastRun: '2025-02-27T00:36:10.583655'
+  lastRun: '2025-03-27T12:36:00.957925'
   matchSpan:
     end: 35
-    start: 14
-  matchedContent: 1941) Black.and.White
-  matchedGroups: []
+    start: 18
+  matchedContent: ) Black.and.White
+  matchedGroups:
+  - ''
   passes: true
 - expected: true
   id: 8
   input: Dracula (1931) Black-White
-  lastRun: '2025-02-27T00:36:10.583655'
+  lastRun: '2025-03-27T12:36:00.957925'
   matchSpan:
     end: 26
-    start: 9
-  matchedContent: 1931) Black-White
-  matchedGroups: []
+    start: 13
+  matchedContent: ) Black-White
+  matchedGroups:
+  - ''
   passes: true
 - expected: true
   id: 11
   input: Young Frankenstein (1974) BW DVDRip
-  lastRun: '2025-02-27T00:36:10.583655'
+  lastRun: '2025-03-27T12:36:00.957925'
   matchSpan:
     end: 28
     start: 26
   matchedContent: BW
-  matchedGroups: []
+  matchedGroups:
+  - null
   passes: true
 - expected: false
   id: 12
   input: Jack Black & Betty White in a Comedy Special
-  lastRun: '2025-02-27T00:36:10.583655'
+  lastRun: '2025-03-27T12:36:00.957925'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
