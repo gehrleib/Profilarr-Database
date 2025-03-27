@@ -16,8 +16,8 @@ description: 'iTunes began offering video content in October 2005 with the relea
   for purchasing, organizing, and viewing movies and TV shows.'
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: false
   id: 1

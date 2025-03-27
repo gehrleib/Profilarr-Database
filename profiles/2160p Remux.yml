@@ -29,7 +29,8 @@ tags:
 - HDR
 - Lossless Audio
 - h265
-- Radarr
+- Movies
+- Cartoons
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 350
@@ -90,6 +91,8 @@ custom_formats:
 - name: Atmos (Missing)
   score: 10
 - name: CC
+  score: 10
+- name: DCU
   score: 10
 - name: HDR10
   score: 10

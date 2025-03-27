@@ -6,8 +6,8 @@ description: Peacock is an American over-the-top subscription streaming service 
   content providers (such as WWE and Hallmark Channel).
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: true
   id: 1

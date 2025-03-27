@@ -6,8 +6,8 @@ description: HBO Max is an American subscription video-on-demand streaming servi
   Turner Classic Movies. In mid-to-late 2023, HBO Max underwent a rebranding to "Max".
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: true
   id: 1

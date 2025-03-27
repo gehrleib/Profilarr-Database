@@ -6,8 +6,7 @@ description: Movies Anywhere (MA) is a cloud-based digital rights locker and ove
   purchases from participating services
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
 tests:
 - expected: true
   id: 1

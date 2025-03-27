@@ -6,8 +6,8 @@ description: Max, formerly (and in some regions still) known as HBO Max, is an A
   Adult Swim, Animal Planet, TBS, TNT, Eurosport, and their related brands.
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: true
   id: 1

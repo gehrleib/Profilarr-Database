@@ -31,7 +31,7 @@ tags:
 - HDR
 - Lossless Audio
 - x265
-- Sonarr
+- TV
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 600
@@ -132,6 +132,8 @@ custom_formats:
 - name: Atmos (Missing)
   score: 10
 - name: CC
+  score: 10
+- name: DCU
   score: 10
 - name: HDR10
   score: 10

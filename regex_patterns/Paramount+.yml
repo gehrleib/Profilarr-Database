@@ -7,8 +7,8 @@ description: 'Paramount+ is an American subscription video on-demand over-the-to
   the United States, live streaming of local CBS broadcast stations. '
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: true
   id: 1

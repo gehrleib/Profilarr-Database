@@ -7,8 +7,8 @@ description: Disney+ is an American subscription video on-demand over-the-top st
   ESPN, Hulu and Star.
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: true
   id: 1

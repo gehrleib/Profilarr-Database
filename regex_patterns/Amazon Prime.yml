@@ -5,8 +5,8 @@ description: Amazon Prime Video, or simply Prime Video, is an American subscript
   as a stand-alone service and as part of Amazon's Prime subscription.
 tags:
 - Streaming Service
-- WEB-DL
-- WEBRip
+- Movies
+- TV
 tests:
 - expected: true
   id: 1
