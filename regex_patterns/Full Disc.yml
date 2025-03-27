@@ -1,11 +1,8 @@
 name: Full Disc
-pattern: ^(?!.*\b((?<!HD[._ -]|HD)DVD|BDRip|MKV|XviD|WMV|d3g|BDREMUX|REMUX|^(?=.*1080p)(?=.*HEVC)|[xh][-_.
-  ]?26[45]|German.*DL|((?<=\d{4}).*German.*(DL)?)(?=.*\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_.
-  ]?2)\b))\b)(((?=.*\b(Blu[-_. ]?ray|BD|HD[-_. ]?DVD)\b)(?=.*\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_.
-  ]?2|BDMV|ISO)\b))|^((?=.*\b(^((?=.*\b((.*_)?COMPLETE.*|Dis[ck])\b)(?=.*(Blu[-_.
-  ]?ray|HD[-_. ]?DVD)))|3D[-_. ]?BD|BR[-_. ]?DISK|Full[-_. ]?Blu[-_. ]?ray|^((?=.*((BD|UHD)[-_.
-  ]?(25|50|66|100|ISO)))))))).*|\b(DVD9|DVD5|NTSC|PAL|VOB IFO|VC-1|AVC|MPEG-2|COMPLETE(?:[
-  .-]UHD)?(?:[ .-]BLU[ .-]?RAY)|BR-Disk)\b
+pattern: (?:(?!S\d{2}E\d{2}).)*?(\b|\.)(?:\b(ISO|BDMV|VIDEO_TS|DVD[59]|(?:BD|UHD)[-_.
+  ]?(?:25|50|66|100)|COMPLETE(?:[-_. ]?(?:UHD|BLURAY))?|Full[-_. ]?(?:Blu[-_. ]?ray|BD)|BR[-_.
+  ]?DISK|Dis[ck]|VOB|IFO|NTSC|PAL)\b|^(?!.*\b(REMUX|BDRip|Rip|WEBDL|WEB[-_. ]?Rip|Encode|x264|h264|x265|h265|MKV|XviD|MP4)\b)(?=.*\b(Blu[-_.
+  ]?ray|HD[-_. ]?DVD|DVD\b(?!rip))\b)(?=.*\b(AVC|HEVC|VC[-_. ]?1|MPEG[-_. ]?2)\b).*)
 description: A Full Disc release refers to a complete copy of a physical media disc,
   such as a DVD or Blu-ray, preserving all original content including menus, bonus
   features, and multiple audio or subtitle tracks. Unlike compressed or re-encoded
