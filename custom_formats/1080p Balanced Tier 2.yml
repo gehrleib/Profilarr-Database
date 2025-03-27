@@ -20,11 +20,11 @@ conditions:
   pattern: hallowed
   required: false
   type: release_group
-- name: QxR
+- name: TAoE
   type: release_group
   required: false
   negate: false
-  pattern: QxR
+  pattern: TAoE
 tests:
 - conditionResults:
   - matches: true
